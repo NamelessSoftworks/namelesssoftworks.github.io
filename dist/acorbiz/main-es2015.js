@@ -407,7 +407,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_1__.ViewportScroller)); };
-HomeComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 4, vars: 2, consts: [["id", "home", 1, "home", "d-flex", "w-100", "pb-2"], ["src", "../assets/img/logo_without_bg.png", "width", "80%", "alt", "A\u00C7ORBIZ"], [1, "btn", "d-block", "next-section", 3, "click"], ["fas", "", "icon", "angle-down"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 4, vars: 2, consts: [["id", "home", 1, "home", "d-flex", "w-100", "pb-2"], ["src", "assets/img/logo_without_bg.png", "width", "80%", "alt", "A\u00C7ORBIZ"], [1, "btn", "d-block", "next-section", 3, "click"], ["fas", "", "icon", "angle-down"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "button", 2);
@@ -550,7 +550,7 @@ class NavbarComponent {
 NavbarComponent.ɵfac = function NavbarComponent_Factory(t) { return new (t || NavbarComponent)(); };
 NavbarComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavbarComponent, selectors: [["app-navbar"]], hostBindings: function NavbarComponent_HostBindings(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("scroll", function NavbarComponent_scroll_HostBindingHandler() { return ctx.onWindowScroll(); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveWindow"]);
-    } }, decls: 7, vars: 1, consts: [["SideClass", "navbar navbar-expand-xl navbar-dark black fixed-top scrolling-navbar"], ["href", "#home", 1, "navbar-brand"], ["src", "../../../../assets/img/logo_without_bg.png", "height", "30", "alt", "A\u00C7ORBIZ | Representa\u00E7\u00F5es Unip. Lda"], [1, "navbar-nav", "ml-auto"], ["class", "nav-item", 3, "id", 4, "ngFor", "ngForOf"], [1, "nav-item", 3, "id"], ["mdbWavesEffect", "", 1, "nav-link", "waves-light", 3, "click"]], template: function NavbarComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 7, vars: 1, consts: [["SideClass", "navbar navbar-expand-xl navbar-dark black fixed-top scrolling-navbar"], ["href", "#home", 1, "navbar-brand"], ["src", "assets/img/logo_without_bg.png", "height", "30", "alt", "A\u00C7ORBIZ | Representa\u00E7\u00F5es Unip. Lda"], [1, "navbar-nav", "ml-auto"], ["class", "nav-item", 3, "id", 4, "ngFor", "ngForOf"], [1, "nav-item", 3, "id"], ["mdbWavesEffect", "", 1, "nav-link", "waves-light", 3, "click"]], template: function NavbarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mdb-navbar", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mdb-navbar-brand");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 1);
@@ -592,14 +592,14 @@ class WhatWeDoComponent {
     }
 }
 WhatWeDoComponent.ɵfac = function WhatWeDoComponent_Factory(t) { return new (t || WhatWeDoComponent)(); };
-WhatWeDoComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WhatWeDoComponent, selectors: [["app-what-we-do"]], decls: 61, vars: 2, consts: [["id", "what-we-do", 1, "what-we-do", "w-100", "pt-2"], [1, "description", "mb-5"], [1, "mt-5"], [1, "carousel", "slide", "carousel-fade", 3, "animation", "interval"], [1, "view", "w-100"], ["src", "../../../../assets/img/obras.jpg", "alt", "consultadoria Obras", 1, "d-block", "w-100"], ["mdbWavesEffect", "", 1, "mask", "rgba-black-strong", "waves-light"], [1, "carousel-caption"], [1, "h3-responsive"], ["src", "../../../../assets/img/pool.jpg", "alt", "Material Piscinas", 1, "d-block", "w-100"], [1, "view", "w-100", "h-100"], ["src", "../../../../assets/img/imobliaria.jpg", "alt", "imobili\u00E1ria", 1, "d-block", "w-100"], ["src", "../../../../assets/img/limpeza.jpg", "alt", "Produtos de Higiene", 1, "d-block", "w-100"], ["src", "../../../../assets/img/desporto.jpg", "alt", "Produtos de Desporto", 1, "d-block", "w-100"], ["src", "../../../../assets/img/epis.jpg", "alt", "EPI", 1, "d-block", "w-100"]], template: function WhatWeDoComponent_Template(rf, ctx) { if (rf & 1) {
+WhatWeDoComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WhatWeDoComponent, selectors: [["app-what-we-do"]], decls: 61, vars: 2, consts: [["id", "what-we-do", 1, "what-we-do", "w-100", "pt-2"], [1, "description", "mb-5"], [1, "mt-5"], [1, "carousel", "slide", "carousel-fade", 3, "animation", "interval"], [1, "view", "w-100"], ["src", "assets/img/obras.jpg", "alt", "consultadoria Obras", 1, "d-block", "w-100"], ["mdbWavesEffect", "", 1, "mask", "rgba-black-strong", "waves-light"], [1, "carousel-caption"], [1, "h3-responsive"], ["src", "assets/img/pool.jpg", "alt", "Material Piscinas", 1, "d-block", "w-100"], [1, "view", "w-100", "h-100"], ["src", "assets/img/imobliaria.jpg", "alt", "imobili\u00E1ria", 1, "d-block", "w-100"], ["src", "assets/img/limpeza.jpg", "alt", "Produtos de Higiene", 1, "d-block", "w-100"], ["src", "assets/img/desporto.jpg", "alt", "Produtos de Desporto", 1, "d-block", "w-100"], ["src", "assets/img/epis.jpg", "alt", "EPI", 1, "d-block", "w-100"]], template: function WhatWeDoComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h4");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "O QUE \u00C9 QUE N\u00D3S FAZEMOS?");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " N\u00F3s apostamos em v\u00E1rios produtos e servi\u00E7os para servir os nossos clientes. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "N\u00F3s apostamos em v\u00E1rios produtos e servi\u00E7os para servir os nossos clientes.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mdb-carousel", 3);
@@ -627,7 +627,7 @@ WhatWeDoComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Piscinas");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " Temos tudo para a sua piscina, alvenaria, equipamentos e acess\u00F3rios, solu\u00E7\u00F5es \u201Cchave na m\u00E3o\u201D. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Temos tudo para a sua piscina, alvenaria, equipamentos e acess\u00F3rios, solu\u00E7\u00F5es \u201Cchave na m\u00E3o\u201D.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();

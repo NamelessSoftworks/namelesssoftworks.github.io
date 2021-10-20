@@ -842,7 +842,7 @@
         selectors: [["app-home"]],
         decls: 4,
         vars: 2,
-        consts: [["id", "home", 1, "home", "d-flex", "w-100", "pb-2"], ["src", "../assets/img/logo_without_bg.png", "width", "80%", "alt", "A\xC7ORBIZ"], [1, "btn", "d-block", "next-section", 3, "click"], ["fas", "", "icon", "angle-down"]],
+        consts: [["id", "home", 1, "home", "d-flex", "w-100", "pb-2"], ["src", "assets/img/logo_without_bg.png", "width", "80%", "alt", "A\xC7ORBIZ"], [1, "btn", "d-block", "next-section", 3, "click"], ["fas", "", "icon", "angle-down"]],
         template: function HomeComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
@@ -1148,7 +1148,7 @@
         },
         decls: 7,
         vars: 1,
-        consts: [["SideClass", "navbar navbar-expand-xl navbar-dark black fixed-top scrolling-navbar"], ["href", "#home", 1, "navbar-brand"], ["src", "../../../../assets/img/logo_without_bg.png", "height", "30", "alt", "A\xC7ORBIZ | Representa\xE7\xF5es Unip. Lda"], [1, "navbar-nav", "ml-auto"], ["class", "nav-item", 3, "id", 4, "ngFor", "ngForOf"], [1, "nav-item", 3, "id"], ["mdbWavesEffect", "", 1, "nav-link", "waves-light", 3, "click"]],
+        consts: [["SideClass", "navbar navbar-expand-xl navbar-dark black fixed-top scrolling-navbar"], ["href", "#home", 1, "navbar-brand"], ["src", "assets/img/logo_without_bg.png", "height", "30", "alt", "A\xC7ORBIZ | Representa\xE7\xF5es Unip. Lda"], [1, "navbar-nav", "ml-auto"], ["class", "nav-item", 3, "id", 4, "ngFor", "ngForOf"], [1, "nav-item", 3, "id"], ["mdbWavesEffect", "", 1, "nav-link", "waves-light", 3, "click"]],
         template: function NavbarComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mdb-navbar", 0);
@@ -1248,7 +1248,7 @@
         selectors: [["app-what-we-do"]],
         decls: 61,
         vars: 2,
-        consts: [["id", "what-we-do", 1, "what-we-do", "w-100", "pt-2"], [1, "description", "mb-5"], [1, "mt-5"], [1, "carousel", "slide", "carousel-fade", 3, "animation", "interval"], [1, "view", "w-100"], ["src", "../../../../assets/img/obras.jpg", "alt", "consultadoria Obras", 1, "d-block", "w-100"], ["mdbWavesEffect", "", 1, "mask", "rgba-black-strong", "waves-light"], [1, "carousel-caption"], [1, "h3-responsive"], ["src", "../../../../assets/img/pool.jpg", "alt", "Material Piscinas", 1, "d-block", "w-100"], [1, "view", "w-100", "h-100"], ["src", "../../../../assets/img/imobliaria.jpg", "alt", "imobili\xE1ria", 1, "d-block", "w-100"], ["src", "../../../../assets/img/limpeza.jpg", "alt", "Produtos de Higiene", 1, "d-block", "w-100"], ["src", "../../../../assets/img/desporto.jpg", "alt", "Produtos de Desporto", 1, "d-block", "w-100"], ["src", "../../../../assets/img/epis.jpg", "alt", "EPI", 1, "d-block", "w-100"]],
+        consts: [["id", "what-we-do", 1, "what-we-do", "w-100", "pt-2"], [1, "description", "mb-5"], [1, "mt-5"], [1, "carousel", "slide", "carousel-fade", 3, "animation", "interval"], [1, "view", "w-100"], ["src", "assets/img/obras.jpg", "alt", "consultadoria Obras", 1, "d-block", "w-100"], ["mdbWavesEffect", "", 1, "mask", "rgba-black-strong", "waves-light"], [1, "carousel-caption"], [1, "h3-responsive"], ["src", "assets/img/pool.jpg", "alt", "Material Piscinas", 1, "d-block", "w-100"], [1, "view", "w-100", "h-100"], ["src", "assets/img/imobliaria.jpg", "alt", "imobili\xE1ria", 1, "d-block", "w-100"], ["src", "assets/img/limpeza.jpg", "alt", "Produtos de Higiene", 1, "d-block", "w-100"], ["src", "assets/img/desporto.jpg", "alt", "Produtos de Desporto", 1, "d-block", "w-100"], ["src", "assets/img/epis.jpg", "alt", "EPI", 1, "d-block", "w-100"]],
         template: function WhatWeDoComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
@@ -1263,7 +1263,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " N\xF3s apostamos em v\xE1rios produtos e servi\xE7os para servir os nossos clientes. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "N\xF3s apostamos em v\xE1rios produtos e servi\xE7os para servir os nossos clientes.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1319,7 +1319,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "p");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " Temos tudo para a sua piscina, alvenaria, equipamentos e acess\xF3rios, solu\xE7\xF5es \u201Cchave na m\xE3o\u201D. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Temos tudo para a sua piscina, alvenaria, equipamentos e acess\xF3rios, solu\xE7\xF5es \u201Cchave na m\xE3o\u201D.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
