@@ -264,7 +264,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "BubbleComponent": function() { return /* binding */ BubbleComponent; }
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2316);
+/* harmony import */ var src_environments_environment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/environments/environment */ 2340);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 2316);
+
 
 class BubbleComponent {
     constructor() {
@@ -272,29 +274,28 @@ class BubbleComponent {
         this.language = "PT";
     }
     ngOnInit() { }
-    //#HERE Change method name
-    doMoreStuff(isEnglish) {
+    getLanguage(isEnglish) {
         return isEnglish ? "EN" : "PT";
     }
-    //#HERE Change method name
-    doStuff() {
+    changeLanguageOnClick() {
         this.isEnglish = !this.isEnglish;
-        this.language = this.doMoreStuff(this.isEnglish);
+        this.language = this.getLanguage(this.isEnglish);
+        window.open(src_environments_environment__WEBPACK_IMPORTED_MODULE_0__.environment.baseUrl + this.isEnglish ? 'en-US' : 'pt-PT');
     }
 }
 BubbleComponent.ɵfac = function BubbleComponent_Factory(t) { return new (t || BubbleComponent)(); };
-BubbleComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BubbleComponent, selectors: [["app-bubble"]], decls: 4, vars: 1, consts: [[1, "bubble", 3, "click"], [1, "translator-bubble"]], template: function BubbleComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function BubbleComponent_Template_div_click_0_listener() { return ctx.doStuff(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+BubbleComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: BubbleComponent, selectors: [["app-bubble"]], decls: 4, vars: 1, consts: [[1, "bubble", 3, "click"], [1, "translator-bubble"]], template: function BubbleComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function BubbleComponent_Template_div_click_0_listener() { return ctx.changeLanguageOnClick(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.language);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.language);
     } }, styles: ["html[_ngcontent-%COMP%] {\n  scroll-behavior: smooth;\n}\n\nbody[_ngcontent-%COMP%] {\n  scrollbar-width: thin;\n  scrollbar-color: black #daac4e;\n}\n\nbody[_ngcontent-%COMP%]::-webkit-scrollbar-track {\n  background: #252525;\n}\n\nbody[_ngcontent-%COMP%]::-webkit-scrollbar-thumb {\n  background-color: #daac4e;\n  border-radius: 6px;\n  width: 2px;\n  border: 3px solid var(white);\n}\n\nbody[_ngcontent-%COMP%]::-webkit-scrollbar {\n  width: 11px;\n}\n\n.bubble[_ngcontent-%COMP%] {\n  position: fixed;\n  bottom: 20px;\n  right: 20px;\n  z-index: 2000;\n  color: rgba(218, 172, 78, 0.75);\n  font-size: 20px;\n  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;\n}\n\n.bubble[_ngcontent-%COMP%]   .translator-bubble[_ngcontent-%COMP%] {\n  background-color: black;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  border: 1px solid rgba(218, 172, 78, 0.75);\n  width: 40px;\n  height: 40px;\n  border-radius: 100%;\n}\n\n.bubble[_ngcontent-%COMP%]   .translator-bubble[_ngcontent-%COMP%]:hover {\n  color: black;\n  cursor: pointer;\n  background-color: #daac4e;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcLi5cXGFwcC5jb21wb25lbnQuc2NzcyIsImJ1YmJsZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFPQTtFQUNFLHVCQUFBO0FDTkY7O0FEU0E7RUFDRSxxQkFBQTtFQUNBLDhCQUFBO0FDTkY7O0FEUUU7RUFDRSxtQkFBQTtBQ05KOztBRFFFO0VBQ0UseUJBbEJRO0VBbUJSLGtCQUFBO0VBQ0EsVUFBQTtFQUNBLDRCQUFBO0FDTko7O0FEUUU7RUFDRSxXQUFBO0FDTko7O0FBakJBO0VBQ0ksZUFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0EsYUFBQTtFQUNBLCtCRExTO0VDTVQsZUFBQTtFQUNBLG1FREpTO0FDd0JiOztBQWJJO0VBQ0ksdUJEakJFO0VDa0JGLGFBQUE7RUFDQSxzQkFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7RUFDQSwwQ0FBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0EsbUJBQUE7QUFlUjs7QUFiUTtFQUNJLFlENUJGO0VDNkJFLGVBQUE7RUFDQSx5QkQ3QkE7QUM0Q1oiLCJmaWxlIjoiYnViYmxlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiJHByaW1hcnk6IHJnYigwLCAwLCAwKTtcclxuJHNlY3VuZGFyeTogcmdiKDIxOCwgMTcyLCA3OCk7XHJcbiRzZWN1bmRhcnlBOiByZ2JhKDIxOCwgMTcyLCA3OCwgMC43NSk7XHJcbiR0aGlyZDogcmdiKDI1NSwgMjU1LCAyNTUpO1xyXG5cclxuJGZvbnRGYW1pbHk6IENlbnR1cnkgR290aGljLCBDZW50dXJ5R290aGljLCBBcHBsZUdvdGhpYywgc2Fucy1zZXJpZjtcclxuXHJcbmh0bWwge1xyXG4gIHNjcm9sbC1iZWhhdmlvcjogc21vb3RoO1xyXG59XHJcblxyXG5ib2R5IHtcclxuICBzY3JvbGxiYXItd2lkdGg6IHRoaW47XHJcbiAgc2Nyb2xsYmFyLWNvbG9yOiAkcHJpbWFyeSAkc2VjdW5kYXJ5O1xyXG5cclxuICAmOjotd2Via2l0LXNjcm9sbGJhci10cmFjayB7XHJcbiAgICBiYWNrZ3JvdW5kOiAjMjUyNTI1O1xyXG4gIH1cclxuICAmOjotd2Via2l0LXNjcm9sbGJhci10aHVtYiB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkc2VjdW5kYXJ5O1xyXG4gICAgYm9yZGVyLXJhZGl1czogNnB4O1xyXG4gICAgd2lkdGg6IDJweDtcclxuICAgIGJvcmRlcjogM3B4IHNvbGlkIHZhcigkdGhpcmQpO1xyXG4gIH1cclxuICAmOjotd2Via2l0LXNjcm9sbGJhciB7XHJcbiAgICB3aWR0aDogMTFweDtcclxuICB9XHJcbn1cclxuIiwiaHRtbCB7XG4gIHNjcm9sbC1iZWhhdmlvcjogc21vb3RoO1xufVxuXG5ib2R5IHtcbiAgc2Nyb2xsYmFyLXdpZHRoOiB0aGluO1xuICBzY3JvbGxiYXItY29sb3I6IGJsYWNrICNkYWFjNGU7XG59XG5ib2R5Ojotd2Via2l0LXNjcm9sbGJhci10cmFjayB7XG4gIGJhY2tncm91bmQ6ICMyNTI1MjU7XG59XG5ib2R5Ojotd2Via2l0LXNjcm9sbGJhci10aHVtYiB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNkYWFjNGU7XG4gIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgd2lkdGg6IDJweDtcbiAgYm9yZGVyOiAzcHggc29saWQgdmFyKHdoaXRlKTtcbn1cbmJvZHk6Oi13ZWJraXQtc2Nyb2xsYmFyIHtcbiAgd2lkdGg6IDExcHg7XG59XG5cbi5idWJibGUge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGJvdHRvbTogMjBweDtcbiAgcmlnaHQ6IDIwcHg7XG4gIHotaW5kZXg6IDIwMDA7XG4gIGNvbG9yOiByZ2JhKDIxOCwgMTcyLCA3OCwgMC43NSk7XG4gIGZvbnQtc2l6ZTogMjBweDtcbiAgZm9udC1mYW1pbHk6IENlbnR1cnkgR290aGljLCBDZW50dXJ5R290aGljLCBBcHBsZUdvdGhpYywgc2Fucy1zZXJpZjtcbn1cbi5idWJibGUgLnRyYW5zbGF0b3ItYnViYmxlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBib3JkZXI6IDFweCBzb2xpZCByZ2JhKDIxOCwgMTcyLCA3OCwgMC43NSk7XG4gIHdpZHRoOiA0MHB4O1xuICBoZWlnaHQ6IDQwcHg7XG4gIGJvcmRlci1yYWRpdXM6IDEwMCU7XG59XG4uYnViYmxlIC50cmFuc2xhdG9yLWJ1YmJsZTpob3ZlciB7XG4gIGNvbG9yOiBibGFjaztcbiAgY3Vyc29yOiBwb2ludGVyO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZGFhYzRlO1xufSJdfQ== */"] });
 
 
@@ -885,7 +886,8 @@ __webpack_require__.r(__webpack_exports__);
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 const environment = {
-    production: false
+    production: false,
+    baseUrl: 'localhost:4200/'
 };
 /*
  * For easier debugging in development mode, you can import the following file
