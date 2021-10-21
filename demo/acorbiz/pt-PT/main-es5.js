@@ -576,7 +576,7 @@
           value: function changeLanguageOnClick() {
             this.isEnglish = !this.isEnglish;
             this.language = this.getLanguage(this.isEnglish);
-            window.location.href = this.baseUrl + this.isEnglish ? 'en-US' : 'pt-PT'; // window.open(this.baseUrl + this.isEnglish ? 'en-US' : 'pt-PT');
+            window.location.href = "https://namelesssoftworks.github.io/demo/acorbiz/" + this.isEnglish ? 'en-US' : 0;
           }
         }]);
 
