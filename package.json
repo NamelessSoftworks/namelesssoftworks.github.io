@@ -1,0 +1,9 @@
+{
+  "name": "namelesssoftworks.github.io",
+  "version": "0.0.0",
+  "scripts": {
+    "deploy" : "timestamp=$(date \"+%s\") && git commit -m \"Deploy $timestamp\"; git push;"
+  },
+  "private": true,
+  "license": "MIT"
+}
